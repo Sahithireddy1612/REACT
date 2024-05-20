@@ -1,0 +1,40 @@
+#nav{
+    background-color: white;
+    height: 170px;
+    border-radius: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+
+.body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    overflow: scroll;
+}
+#card{
+    width: 25rem;
+    height: 50rem;
+    background-color: cornsilk;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+#image{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 70px;
+    background-color: plum;
+    
+}
