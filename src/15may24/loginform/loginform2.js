@@ -9,10 +9,10 @@ const LoginForm2 = () => {
   const [login, setLogin] = useState(false);
 
   const userNameHandler = (event) => {
-    const userName = event.target.value;
-    setUserName(userName);
+    const username = event.target.value;
+    setUserName(username);
 
-    if (userName.length > 15) {
+    if (username.length > 15) {
       setUsernameError("Please enter less than 15 characters");
     } else {
       setUsernameError("");
@@ -40,7 +40,7 @@ const LoginForm2 = () => {
   };
 
   const serverCall = (userInfo) => {
-    fetch(" http://localhost:5000/users", {
+    fetch("https://dummyjson.com/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(userInfo),
