@@ -1,0 +1,28 @@
+
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px; 
+    justify-content: center; 
+  }
+  
+  .product-card {
+    transition: transform 0.2s;
+    margin-bottom: 20px; 
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .ml-2 {
+    margin-left: 10px;
+  }
+  
